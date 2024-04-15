@@ -36,10 +36,7 @@ h1 {
 }
 
 .name-company {
-  padding-left: 360px;
-  padding-right: 360px;
-  padding-top: 40px;
-  padding-bottom: 60px;
+  padding: 40px 360px 60px;
 }
 
 .cards {
@@ -50,16 +47,12 @@ h1 {
 
 .card {
   border-radius: 12px;
-  flex: 1;
   background-color: white;
-  padding-right: 60px;
-  padding-bottom: 178px;
+  padding: 0 60px 178px 0;
 }
 
 .card img {
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-top: 24px;
+  padding: 24px;
   padding-bottom: 20px;
 }
 
@@ -108,4 +101,8 @@ footer p {
   line-height: 21.86px;
   width: 421px;
   text-align: left;
+}
+
+footer img {
+  filter: brightness(0) invert(100%);
 }
