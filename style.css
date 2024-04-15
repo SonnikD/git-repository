@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  height: 148px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 360px;
+  justify-content: space-between;
+}
+
+.burger {
+  width: 22px;
+  position: relative;
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+  margin: 7px 21px;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: #1967fb;
+  line-height: 48px;
+  font-weight: 800;
+  font-family: "Gilroy-bold", sans-serif;
+  font-size: 40px;
+}
+
+.name-company {
+  padding: 40px 360px 60px;
+}
+
+.cards {
+  display: flex;
+  padding-left: 360px;
+  padding-right: 300px;
+}
+
+.card {
+  border-radius: 12px;
+  background-color: white;
+  padding: 0 60px 178px 0;
+}
+
+.card img {
+  padding: 24px;
+  padding-bottom: 20px;
+}
+
+h2 {
+  line-height: 19px;
+  font-weight: 400;
+  font-family: "Gilroy-bold", sans-serif;
+  font-size: 16px;
+  color: #404040;
+}
+
+.card-content {
+  padding: 0px 24px;
+  padding-bottom: 24px;
+}
+.card-content p {
+  padding-top: 16px;
+  line-height: 19px;
+  font-family: "Gilroy-Light", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #404040;
+}
+
+.shadow {
+  box-shadow: -8px 16px 16px 0px rgba(0, 0, 0, 0.1),
+    6px -5px 16px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+footer {
+  background-color: #262e32;
+  height: auto;
+  min-height: 147px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 360px;
+  padding-right: 335px;
+  justify-content: space-between;
+}
+footer p {
+  color: white;
+  font-size: 16px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 300;
+  line-height: 21.86px;
+  width: 421px;
+  text-align: left;
+}
+
+footer img {
+  filter: brightness(0) invert(100%);
+}
